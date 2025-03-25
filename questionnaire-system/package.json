@@ -1,0 +1,21 @@
+{
+  "name": "questionnaire-system",
+  "version": "1.0.0",
+  "description": "Sistema de controle de questionários para criação, distribuição e análise de questionários.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "seed": "node src/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Rafael Guedes",
+  "license": "ISC"
+}
